@@ -1,0 +1,9 @@
+frase = "hola, ¿cómo estás?"
+vocales = "aeiouAEIOUáéíóú"
+contador_vocales = 0 
+
+for letra in frase:
+    if letra in vocales:
+        contador_vocales += 1 
+
+print ("el numero de vocales es:", contador_vocales)
